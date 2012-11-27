@@ -1,20 +1,28 @@
-# Mac OS X Finder and whatnot
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+
+# OS X
 .DS_Store
 
-# build products
-build/
-*.[oa]
+# Thumbnails
+._*
 
-# automatic backup files
-*~.nib
-*.swp
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
 *~
-*(Autosaved).rtfd/
-Backup[ ]of[ ]*.pages/
-Backup[ ]of[ ]*.key/
-Backup[ ]of[ ]*.numbers/
-
-#
-xcuserdata
-
-FacebookSDK.framework/**
