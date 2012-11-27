@@ -463,7 +463,7 @@ enum {
 }
 
 
-- (BOOL)addURL:(NSString *)url
+- (BOOL)addURL:(NSURL *)url
 {
     [self.urls removeAllObjects];
     if (url == nil) {

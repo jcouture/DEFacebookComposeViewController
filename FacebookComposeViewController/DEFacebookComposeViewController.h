@@ -87,7 +87,7 @@ typedef void (^DEFacebookComposeViewControllerCompletionHandler)(DEFacebookCompo
     // Adds a URL to the tweet. Returns NO if the additional URL will not fit
     // within the character space currently available, or if the sheet has already
     // been presented to the user.
-- (BOOL)addURL:(NSString *)url;
+- (BOOL)addURL:(NSURL *)url;
 
 //    // Removes all URLs from the tweet. Returns NO and does not perform an operation
 //    // if the sheet has already been presented to the user.
