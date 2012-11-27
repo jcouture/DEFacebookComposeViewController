@@ -30,7 +30,11 @@
 #import "DEFacebookGradientView.h"
 #import "UIDevice+DEFacebookComposeViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#ifdef DEFACEBOOKCOMPOSEVIEWCONTROLLER_MANUAL_SDK
+#import "FacebookSDK.h"
+#else
 #import <FacebookSDK/FacebookSDK.h>
+#endif
 
 #import <Social/Social.h>
 
