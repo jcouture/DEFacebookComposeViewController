@@ -181,7 +181,7 @@
             self.accountButton.titleLabel.font = [UIFont systemFontOfSize:17.0f];
             [self addSubview:self.accountButton];
             
-            self.accountLine = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"DEFacebookCardAccountLine"]] autorelease];
+            self.accountLine = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookCardAccountLine.png"]] autorelease];
             [self addSubview:self.accountLine];
         }
         [self.accountButton setTitle:self.accountName forState:UIControlStateNormal];

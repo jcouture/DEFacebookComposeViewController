@@ -488,8 +488,8 @@ enum {
             cardTop = 25.0f;
             cardHeight = 189.0f;
             buttonTop = 7.0f;
-            cancelButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonPortrait"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
-            sendButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonPortrait"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+            cancelButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonPortrait.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+            sendButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonPortrait.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
             cardHeaderLineTop = 41.0f;
             titleLabelFontSize = 20.0f;
             titleLabelTop = 9.0f;
@@ -498,8 +498,8 @@ enum {
             cardTop = -1.0f;
             cardHeight = 150.0f;
             buttonTop = 6.0f;
-            cancelButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonLandscape"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
-            sendButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonLandscape"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+            cancelButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonLandscape.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+            sendButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonLandscape.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
             cardHeaderLineTop = 32.0f;
             titleLabelFontSize = 17.0f;
             titleLabelTop = 5.0f;
@@ -509,8 +509,8 @@ enum {
         cardWidth = 543.0f;
         cardHeight = 189.0f;
         buttonTop = 7.0f;
-        cancelButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonPortrait"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
-        sendButtonImage = [[UIImage imageNamed:@"DEFacebookSendButtonPortrait"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+        cancelButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonPortrait.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
+        sendButtonImage = [[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookSendButtonPortrait.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:0];
         cardHeaderLineTop = 41.0f;
         titleLabelFontSize = 20.0f;
         titleLabelTop = 9.0f;
@@ -607,7 +607,7 @@ enum {
         // Create a array of attachment images to display.
     NSMutableArray *attachmentImages = [NSMutableArray arrayWithArray:self.images];
     for (NSInteger index = 0; index < [self.urls count]; index++) {
-        [attachmentImages addObject:[UIImage imageNamed:@"DEFacebookURLAttachment"]];
+        [attachmentImages addObject:[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookURLAttachment.png"]];
     }
     
     self.paperClipView.hidden = YES;

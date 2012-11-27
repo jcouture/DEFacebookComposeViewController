@@ -74,7 +74,7 @@
     self.backgroundView = [[[UIView alloc] initWithFrame:self.bounds] autorelease];
     self.backgroundView.layer.masksToBounds = YES;
     self.backgroundView.layer.cornerRadius = self.layer.cornerRadius + 1.0f;
-    self.backgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"DEFacebookCardBackground"]];
+    self.backgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"FacebookComposeViewController.bundle/DEFacebookCardBackground.png"]];
     self.backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self insertSubview:self.backgroundView atIndex:0];
 }
