@@ -470,7 +470,7 @@ enum {
         return NO;
     }
     
-    [self.urls addObject:url];
+    [self.urls addObject:[url absoluteString]];
     return YES;
 }
 
